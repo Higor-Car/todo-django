@@ -6,5 +6,5 @@ class Task(models.Model):
     concluida = models.BooleanField(default=False)
     criada_em = models.DateTimeField(auto_now_add=True)
 
-def __str__(self):
-    return self.nome
+    def __str__(self):
+        return self.nome
